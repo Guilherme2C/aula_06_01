@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: grey;
+}
+.container {
+ display: grid;
+grid-template-columns: repeat(5, 20%);
+grid-template-rows: repeat(5, 20);
+    padding: 5px;
+}
+
+
+#box1 {'
+ display: grid;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+#box2 {
+ display: grid;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 3px inset black;
+}
+#box3 {
+ display: grid;
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    border: 3px double black;
+}
+#box4 {
+ display: grid;
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+    border: 3px dotted black
+}
